@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #2a2c2f;
+}
+
+h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  object-fit: cover;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 20px 0;
+}
+
+/* Estilos para móviles */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .content h3 {
+    font-size: 20px;
+  }
+
+  .content p {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .content h3 {
+    font-size: 22px;
+  }
+
+  .content p {
+    font-size: 15px;
+  }
+}
+
+/* Estilos para desktop */
+@media (min-width: 1025px) {
+  .hero h2 {
+    font-size: 40px;
+  }
+
+  .content h3 {
+    font-size: 26px;
+  }
+
+  .content p {
+    font-size: 18px;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2a2c2f;
+  margin-top: 20px;
+}
