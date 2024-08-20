@@ -17,7 +17,7 @@ Triple Ten Art Gallery es un proyecto de una galería de arte en línea que mues
 El proyecto está organizado de la siguiente manera:
 
 ```plaintext
-web_project_coffeeshop/
+Triple Ten Art Gallery/
   ├── images/                      <- todas las imágenes
   ├── pages/
   │   └── index.css                <- estilos CSS de la página principal
