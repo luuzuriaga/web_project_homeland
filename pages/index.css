@@ -14,33 +14,34 @@
   flex-direction: column;
 }
 
+.header__logo {
+  width: 254.84px;
+  height: 68.94px;
+}
+
+.header__title {
+  width: 720px;
+  height: 200px;
+  font-size: 96px;
+  font-weight: 900;
+  letter-spacing: 0em;
+  text-align: center;
+  line-height: 100px;
+}
+
+.header__subtitle {
+  width: 720px;
+  line-height: 42px;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
 h1 {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
-.hero {
-  text-align: center;
-  padding: 20px;
-}
-
-.hero h2 {
-  font-size: 36px;
-  font-weight: bold;
-}
-
-.hero p {
-  font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.hero img {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  object-fit: cover;
 }
 
 .content {
