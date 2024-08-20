@@ -1,10 +1,31 @@
-/* Estilos generales */
 .page {
-  font-family: "Inter", sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  min-width: 320px;
   background-color: #2a2c2f;
-  color: #fff;
+}
+
+@media screen and (min-width: 1281px) {
+  .page {
+    min-width: 1281px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .page {
+    min-width: 768px;
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .page {
+    min-width: 320px;
+    max-width: 767px;
+  }
 }
 
 .header {
@@ -103,73 +124,137 @@
 }
 
 .content {
-  text-align: center;
-  padding: 20px;
+  width: 984px;
+  margin: auto;
 }
 
-.content h3 {
+.title {
+  margin-bottom: 40px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 830px;
+}
+
+.subtitle {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 722px;
+  height: 136px;
+  margin: 0;
 }
 
-.content p {
+.subtitle__author {
+  text-align: right;
+  height: 34px;
+  margin-bottom: 32px;
+}
+
+.description {
   font-size: 16px;
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 720px;
+  height: 182px;
+  margin: 0;
 }
 
-blockquote {
-  font-style: italic;
-  margin: 20px 0;
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .content {
+    width: 720px;
+    margin: auto;
+  }
+  .title {
+    width: 720px;
+  }
+  .subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 720px;
+
+    margin: 0;
+  }
+  .subtitle_author {
+    text-align: right;
+    height: 34px;
+    margin-bottom: 32px;
+  }
 }
 
-/* Estilos para móviles */
-@media (max-width: 768px) {
-  .hero h2 {
-    font-size: 28px;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .content {
+    width: 320px;
+    height: 960px;
   }
 
-  .content h3 {
-    font-size: 20px;
-  }
-
-  .content p {
-    font-size: 14px;
-  }
-}
-
-/* Estilos para tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .hero h2 {
+  .title {
+    margin-bottom: 40px;
     font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 288px;
+    margin: 0 auto 10px;
   }
 
-  .content h3 {
-    font-size: 22px;
+  .subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 288px;
+    height: 300px;
+    margin: 0 auto;
   }
 
-  .content p {
-    font-size: 15px;
+  .subtitle__author {
+    text-align: right;
+    height: 34px;
+  }
+
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 288px;
+    height: 442px;
+    margin: 0 auto;
   }
 }
 
-/* Estilos para desktop */
-@media (min-width: 1025px) {
-  .hero h2 {
-    font-size: 40px;
-  }
+.footer {
+  display: flex;
+}
 
-  .content h3 {
-    font-size: 26px;
-  }
+.footer__author {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 90px auto 24px;
+}
 
-  .content p {
-    font-size: 18px;
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .footer__author {
+    margin: 90px auto 24px;
   }
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #2a2c2f;
-  margin-top: 20px;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__author {
+    margin: 65px auto 24px;
+  }
 }
