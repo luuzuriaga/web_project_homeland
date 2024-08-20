@@ -1,0 +1,112 @@
+.content {
+  width: 984px;
+  margin: auto;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 830px;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 722px;
+  height: 136px;
+  margin: 0;
+}
+
+.subtitle__author {
+  text-align: right;
+  height: 34px;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 720px;
+  height: 182px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .content {
+    width: 720px;
+    margin: auto;
+  }
+  .title {
+    width: 720px;
+  }
+  .subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 720px;
+
+    margin: 0;
+  }
+  .subtitle_author {
+    text-align: right;
+    height: 34px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .content {
+    width: 320px;
+    height: 960px;
+  }
+
+  .title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 288px;
+    margin: 0 auto 10px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 288px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .subtitle__author {
+    text-align: right;
+    height: 34px;
+  }
+
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 288px;
+    height: 442px;
+    margin: 0 auto;
+  }
+}
