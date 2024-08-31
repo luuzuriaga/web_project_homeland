@@ -49,7 +49,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 21.78px;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
   width: 289px;
   height: 48px;
   border-radius: 4px;
@@ -58,7 +58,7 @@
 }
 
 .places-card__button:hover {
-  background: linear-gradient(90deg, #0278fe78 0%, #003a7b40 99.98%);
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 .places-card__text {
