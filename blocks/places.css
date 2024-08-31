@@ -62,11 +62,7 @@
 }
 
 .places-card__button:hover {
-  background: linear-gradient(
-    90deg,
-    rgb(32, 63, 98) 0%,
-    rgb(32, 48, 67) 99.98%
-  );
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 .places-card__text {
