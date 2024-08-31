@@ -49,7 +49,11 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 21.78px;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(2, 120, 254) 0%,
+    rgb(0, 58, 123) 99.98%
+  );
   width: 289px;
   height: 48px;
   border-radius: 4px;
@@ -58,7 +62,11 @@
 }
 
 .places-card__button:hover {
-  background-color: rgba(42, 44, 47, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgb(32, 63, 98) 0%,
+    rgb(32, 48, 67) 99.98%
+  );
 }
 
 .places-card__text {
