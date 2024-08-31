@@ -12,6 +12,8 @@ Triple Ten Art Gallery es un proyecto de una galería de arte en línea que mues
 - **CSS3**: Estilos y diseño de la página. Utiliza:
   - **Normalize.css**: Para normalizar los estilos en diferentes navegadores.
   - **@font-face**: Para la carga de fuentes personalizadas.
+  - **Grid Layout**:  Permite crear estructuras de página complejas con filas y columnas.
+  - **Sombreados y degradados con CSSe**:  Se aplico sombras y gradientes a elementos para mejorar su apariencia visual.
 
 
 ## Estructura del Proyecto
@@ -27,6 +29,8 @@ Triple Ten Art Gallery/
   │   ├── page.css
   │   ├── header.css
   │   ├── intro.css
+  │   ├── photo-grid.css
+  │   ├── places.css 
   │   └── footer.css
   ├── vendor/                      <- normalize.css
   │   ├── fonts.css
