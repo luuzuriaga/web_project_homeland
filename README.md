@@ -7,8 +7,8 @@
 Triple Ten Art Gallery es un proyecto de una galería de arte en línea que muestra obras de artistas de diferentes rincones del mundo. La página incluye un encabezado, una sección introductoria y un pie de página, con un diseño responsivo para adaptarse a diferentes tamaños de pantalla: 320px, 768px y 1280px.
 
 ## Tecnologías Utilizadas
-- **Figma**: Diseño de la página web
-- **HTML5**: Estructura del contenido de la página. Estructura del contenido de la página.
+- **Figma**: Diseño de la página web responsivo.
+- **HTML5**: Estructura del contenido de la página.
 - **CSS3**: Estilos y diseño de la página. Utiliza:
   - **Normalize.css**: Para normalizar los estilos en diferentes navegadores.
   - **@font-face**: Para la carga de fuentes personalizadas.
